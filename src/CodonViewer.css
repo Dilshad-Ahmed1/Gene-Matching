@@ -1,0 +1,37 @@
+.codon-viewer {
+  margin-top: 10px;
+  font-family: monospace;
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 8px;
+  max-height: 120px;
+  overflow-y: auto;
+}
+
+.codon-line {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 6px;
+}
+
+.codon {
+  padding: 4px 6px;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: #e0e0e0;
+}
+
+.codon.even {
+  background-color: #d1eaff;
+}
+
+.codon.odd {
+  background-color: #e8f5e9;
+}
+
+.codon.match {
+  background-color: #81c784 !important;
+  color: black;
+  font-weight: bold;
+}
